@@ -1,4 +1,3 @@
-import React from 'react'
 import {GrCaretNext, GrCaretPrevious } from 'react-icons/gr'
 
 function Pagination({pageNumber, setPageNumber}: {pageNumber:any, setPageNumber:any}) {

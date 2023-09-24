@@ -4,7 +4,7 @@ import {FcPrevious, FcNext} from 'react-icons/fc'
 
 function Banner(){
 
-    const [bannerMovies, setBannerMovies] = useState([ {
+    const [bannerMovies] = useState([ {
         "adult": false,
         "backdrop_path": "/kcHGf7yDJGrtCVMhqz0DVdvZg5A.jpg",
         "genre_ids": [
